@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Nicolas Pastorini","email":"nicolaspastorini14@gmail.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/buttontogglepbiviz935E9BFC6E944E2FA13376EFAA3FD4EB.pbiviz.json"
+			}
+		],
+		"visual": {"name":"buttontogglepbiviz","displayName":"Button Toggle","guid":"buttontogglepbiviz935E9BFC6E944E2FA13376EFAA3FD4EB","visualClassName":"Visual","version":"1.0.0.0","description":"A custom toggle button visual for Power BI","supportUrl":"https://www.linkedin.com/in/nicolas-pastorini/","gitHubUrl":"https://github.com/NicoPastorini1"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

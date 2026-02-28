@@ -1,0 +1,97 @@
+{
+    "dataRoles": [
+        {
+            "name": "category",
+            "kind": "Grouping",
+            "displayName": "Estado (ON/OFF)"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 2
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "toggleSettings": {
+            "displayName": "Toggle Switch",
+            "properties": {
+                "activeColor": {
+                    "displayName": "Track Color (ON)",
+                    "type": { "fill": { "solid": { "color": true } } }
+                },
+                "inactiveColor": {
+                    "displayName": "Track Color (OFF)",
+                    "type": { "fill": { "solid": { "color": true } } }
+                },
+                "trackWidth": {
+                    "displayName": "Track Width (px)",
+                    "type": { "numeric": true }
+                },
+                "trackHeight": {
+                    "displayName": "Track Height (px)",
+                    "type": { "numeric": true }
+                },
+                "thumbSize": {
+                    "displayName": "Thumb Size (px)",
+                    "type": { "numeric": true }
+                },
+                "thumbColor": {
+                    "displayName": "Thumb Color",
+                    "type": { "fill": { "solid": { "color": true } } }
+                },
+                "thumbGradient": {
+                    "displayName": "Thumb Gradient Effect",
+                    "type": { "bool": true }
+                },
+                "thumbShadow": {
+                    "displayName": "Thumb Shadow Effect",
+                    "type": { "bool": true }
+                },
+                "labelFontSize": {
+                    "displayName": "Label Font Size (px)",
+                    "type": { "numeric": true }
+                },
+                "labelColorActive": {
+                    "displayName": "Label Color (active)",
+                    "type": { "fill": { "solid": { "color": true } } }
+                },
+                "labelColorInactive": {
+                    "displayName": "Label Color (inactive)",
+                    "type": { "fill": { "solid": { "color": true } } }
+                },
+                "showLabels": {
+                    "displayName": "Show ON/OFF Labels",
+                    "type": { "bool": true }
+                },
+                "isOn": {
+                    "displayName": "Is On",
+                    "type": { "bool": true }
+                }
+            }
+        },
+        "general": {
+            "displayName": "General",
+            "properties": {
+                "filter": {
+                    "type": { "filter": true }
+                }
+            }
+        }
+    },
+    "supportsHighlight": false,
+    "suppressDefaultTitle": true,
+    "supportsMultiVisualSelection": true,
+    "supportsSynchronizingFilterState": true,
+    "privileges": []
+}
